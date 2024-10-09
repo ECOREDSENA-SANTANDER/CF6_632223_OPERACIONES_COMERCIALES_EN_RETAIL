@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Recursos del cajero',
+    descripcionCurso:
+      'Este componente formativo tiene como objetivo desarrollar competencias técnicas, humanas y personales en el puesto de pago, una posición representativa en el <i>retail</i>, debido al contacto directo que se tiene con el cliente. Se profundizará en las funciones esenciales del cajero, recursos del puesto de pago, administración de dinero, equipos tecnológicos, medios de pago y normativa relacionada con el recaudo de caja.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/imagen.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +36,60 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
+        titulo: 'El cajero',
+        desarrolloContenidos: false,
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Recursos del puesto de pago',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Administrar dinero y documentos ',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Equipos tecnológicos  ',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Elementos en el puesto de trabajo',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Manejo de valores',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Medios de pago',
         desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Normativa del recaudo de caja',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Seguridad y salud en el trabajo',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Leyes de protección de datos',
+            hash: 't_4_2',
+          },
+        ],
       },
     ],
     subMenu: [

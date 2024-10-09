@@ -2,14 +2,21 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 35%
+    right: 45%
+    width: 180px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 15%
+    right: 5%
+    width: 140px
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 10%
+    width: 140px
 
 @keyframes float1
   0%
@@ -17,3 +24,88 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+  color: #0a0a0a
+
+.titulo-principal.color-secundario .titulo-principal__numero span 
+  color: #0a0a0a
+
+.banner-principal .tarjeta 
+  img, svg 
+    display: auto
+    border-style: hidden
+
+  figure, picture, img, svg 
+    margin: 40px
+    width: 45%  // aqui se modifica para ajustar banner
+    float: right
+    margin-left: 15px
+    
+.banner-principal__componente 
+  margin-bottom: 50px
+
+
+.banner-principal__row 
+  justify-content: space-around
+
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
+
+.titulo-sexto.color-secundario 
+  border-left-color: #3AE3FE !important
+
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #3AE3FE
+  background-color: #e8e8e8
+
+// subtitulos
+
+.icon 
+  max-width: 35px
+  left: 65px
+  position: absolute
+
+.bg-img-blue
+  padding: 14px
+  background-color: #0D66BF
+  border-radius: 0px 0px 50px 0px
+
+// fondos y bordes
+
+.borde-redondo
+  border-radius: 25px
+
+.borde-redondo-abajo
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
+
+.borde-redondo-arriba
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+
+.bgrosado
+  background-color: #FFCEC6
+
+.bgrosado2
+  background-color: #FFEAE7
+
+.bgnaranjaoscuro
+  background-color: #CC5B4A
+
+.bgnaranjaoscuro2
+  background-color: #994437
+
+.bgnaranja
+  background-color: #FF725D
+
+.bgazulclaro
+  background-color: #D2E1F1
+
+.bgazuloscuro
+  background-color: #53BCED
