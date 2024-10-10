@@ -37,7 +37,7 @@ export default {
         nombreRuta: 'tema1',
         numero: '1',
         titulo: 'El cajero',
-        desarrolloContenidos: false,
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
