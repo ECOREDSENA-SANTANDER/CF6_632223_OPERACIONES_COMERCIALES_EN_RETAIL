@@ -61,7 +61,7 @@
   height: 5px
   width: 140px
   border-left: solid 50px
-  border-left-color: #3AE3FE
+  border-left-color: #FD725D
   background-color: #e8e8e8
 
 // subtitulos
@@ -73,18 +73,22 @@
 
 .icon2
   max-width: 35px
-  left: 485px
-  position: absolute
+  position: relative
 
 .icon3
   max-width: 35px
-  left: 380px
-  position: absolute
+  position: relative
 
 .bg-img-blue
   padding: 14px
   background-color: #0D66BF
   border-radius: 0px 0px 50px 0px
+
+.bg-img-blue1
+  padding: 14px
+  background-color: #0D66BF
+  border-radius: 0px 0px 50px 0px
+
 
 // fondos y bordes
 
@@ -120,6 +124,9 @@
 .bgazuloscuro
   background-color: #53BCED
 
+.bgazulclaro
+  background-color: #D4EEFB
+
 // cajon primario azul
 
 .cajon.color-primario 
@@ -129,6 +136,15 @@
 
 .fondo1
   background: url('../assets/curso/temas/tema1/fondo1.jpg')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+
+.fondo2
+  background: url('../assets/curso/temas/tema2/fondo2.jpg')
   background-size: 100% 100%
   background-repeat: no-repeat
   background-position: center 
@@ -157,3 +173,98 @@
 
 .pasos-b__header__btn--left:hover, .pasos-b__header__btn--right:hover
   border-color: #FFDC39
+
+//viñetas
+  
+.texto-azul
+  color: #0D66BF
+
+.texto-negro
+  color: black
+
+.texto-naranja
+  color: #FF725D
+
+.fa-ol
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 20px
+      font-size: 1.4rem
+
+// Parametrización Tabs tema 2
+
+.tabs-b.color-acento-contenido .tabs-b__tab--active 
+    border-bottom-color: #FF725D !important
+    border-top: none
+    border-top-color: transparent !important
+    background-color: #FFCEC6
+    color: #0D66BF
+
+.tabs-b__tab--active 
+    border-bottom: 5px solid !important
+    border-top: none    
+    background-color: #FFCEC6
+    color: #0D66BF
+
+.tabs-b__tab
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 20px
+    border-right: 2px solid #53BCED
+    border-bottom: 2px solid #53BCED
+    cursor: pointer
+
+// slyder tema 2
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  width: 50px
+  height: 50px
+  background-color: #FFDC39
+  border-radius: 50%
+  color: #0D66BF
+
+.slyder-a__bullets__item
+    background-color: #D2E1F1
+    border-color: #D2E1F1
+
+.slyder-a__bullets__item--active 
+    background-color: #0D66BF
+    border-color: #727997
+    opacity: 1
+
+// bloque de texto comillas tema 2
+
+.bloque-texto-f__comillas i 
+  color: #53BCED
+
+// cajon naranja tema 2
+
+.cajon.naranja
+  background-color: #FFEAE7
+
+.cajon.naranja:before 
+    background-color: #FF725D
+
+// slyder pequeño del tema 2  (para poderlo hacer se programó como linea de tiempo ya que los parametros cambian con relación al slyder A que ya se utilizó
+
+.tarjeta--naranja
+  background-color: #FFEAE7
+
+.linea-tiempo-c__header__item__dot 
+  border: 3px solid transparent !important
+
+.linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot 
+  border-color: transparent !important
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot:after 
+  background-color: transparent !important
+
+.linea-tiempo-c__header__item__line-container:after, .linea-tiempo-c__header__item__line-container:before 
+  background-color: transparent !important
+
+.linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+  justify-content: center

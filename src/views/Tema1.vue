@@ -8,7 +8,7 @@
       h1 El cajero
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-md-6.col-lg-3
+      .col-8.col-md-6.col-lg-3
         img(src='@/assets/curso/temas/tema1/imagen1.png', alt='')
       .col-sm-12.col-md-12.col-lg-9
         p El cajero o cajera es la primera y última persona con la que el cliente interactúa en los puntos de venta. El correcto registro, la atención esmerada y el excelente servicio brindado por el cajero son fundamentales para garantizar que el cliente regrese, ya que una experiencia positiva puede fomentar la lealtad y repetición de compra.
@@ -76,18 +76,18 @@
     p Además de las funciones expuestas previamente, se destaca una función fundamental, que es la organización del puesto de trabajo, cuyo proceso se detalla a continuación:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-8.col-md-7.col-lg-4
         img(src='@/assets/curso/temas/tema1/imagen2.png', alt='')
-      .col-lg-8
+      .col-sm-12.col-md-12.col-lg-8
         p.mb-5.mt-5
         .mb-4.d-flex.ps-lg-0
           .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
-            h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Organizar puesto de pago
             img.icon2(src='@/assets/curso/temas/icon.svg') 
+            h3.col.px-4.mb-0.mx-2.text-white(data-aos="zoom-in-left") Organizar puesto de pago
         .row
-          .col-lg-10
+          .col-sm-12.col-md-12.col-lg-10
             p El propósito del puesto de pago es generar en el cliente comprador bienestar, seguridad y ligereza al momento de registrar sus productos; por otra parte, a nivel físico, está conformado por el mueble donde se ubica el cajero para registrar los productos y atender a los clientes. El diseño del puesto de pago y la distribución de los equipos facilitan la realización de las labores como cajero. Es importante mantenerlo en óptimas condiciones de limpieza y descongestionado de mercancía.          
-          .col-lg-2 
+          .col-4.col-md-3.col-lg-2 
             img.mt-2.p-3(src='@/assets/curso/temas/tema1/imagen3.png', alt='')        
         .cajon.color-primario.p-4.mb-4
           p.mt-2 Para el correcto funcionamiento y buen desempeño en el puesto de pago, es recomendable seguir los siguientes pasos:
@@ -172,7 +172,7 @@
                 img(src='@/assets/curso/temas/tema1/sly1-12.png', alt='Texto que describa la imagen')
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
-      .col-lg-10
+      .col-sm-12.col-md-12.col-lg-10
             .tarjeta.color-acento-contenido.p-3
               .row.justify-content-around.align-items-center
                 .col-auto
@@ -188,19 +188,19 @@
                         i.fas.fa-video
     
     .row.justify-content-center.align-items-center.mb-5.mt-5
-      .col-lg-3
+      .col-8.col-md-5.col-lg-3
         img(src='@/assets/curso/temas/tema1/imagen4.png', alt='')
-      .col-lg-9.mb-4.mt-4       
+      .col-sm-12.col-md-12.col-lg-9.mb-4.mt-4       
         .mb-4.d-flex.ps-lg-0
           .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
-            h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Ética del Cajero
             img.icon3(src='@/assets/curso/temas/icon.svg') 
+            h3.col.px-4.mb-0.mx-2.text-white(data-aos="zoom-in-left") Ética del Cajero
         p La ética empresarial ayuda a promover el fortalecimiento de los valores de una sociedad, y muchas empresas establecen un código de ética para asegurar que los empleados traten a los clientes con respeto y dignidad. Los cajeros en el #[em retail] están obligados a seguir estas normas éticas, asegurando que no abusen de su posición ni utilicen sus conocimientos para beneficio personal. 
         p El cajero debe ser una persona íntegra, honrada y responsable, comprometida con el buen manejo de equipos y materiales. Es responsable directo del manejo de dinero en efectivo, cheques y otros documentos de valor, manteniendo siempre un alto nivel de confidencialidad y profesionalismo frente a la organización.
         .mb-4.d-flex.ps-lg-0
           .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
-            h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Protocolo Institucional
             img.icon3(src='@/assets/curso/temas/icon.svg') 
+            h3.col.px-4.mb-0.mx-2.text-white(data-aos="zoom-in-left") Protocolo Institucional
         p En el #[em retail], el protocolo se refiere a un conjunto de normas, hábitos y costumbres institucionales que permiten a los empleados desenvolverse adecuadamente en las diferentes áreas de la organización. Cada empresa tiene su propio protocolo basado en sus políticas y objetivos, asegurando un entorno de trabajo ordenado y eficiente, donde todos los empleados conocen y cumplen con los estándares establecidos.
 
     
