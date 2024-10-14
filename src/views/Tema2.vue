@@ -32,43 +32,43 @@
             .lista-ol--cuadro__vineta.bgazuloscuro
               span.texto-negro #[b 5]
             span.mb-0 #[b Teclado.] Permite ingresar los datos necesarios para procesar las transacciones.
-      .col-8.col-md-8.col-lg-4
+      .col-9.col-md-8.col-lg-4
         img(src='@/assets/curso/temas/tema2/imagen1.png', alt='')
 
     separador
     #t_2_1.titulo-segundo.mb-5
       h2 2.1 Administrar dinero y documentos
-    p Al preparar la jornada laboral, de acuerdo con las instrucciones del retail y su política de apertura de caja, se debe cumplir con el siguiente procedimiento:
+    p Al preparar la jornada laboral, de acuerdo con las instrucciones del #[em retail] y su política de apertura de caja, se debe cumplir con el siguiente procedimiento:
 
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Entrega y orden" :icono="require('@/assets/curso/temas/tema2/tbimg1-1.png')")
         .row.align-items-center.justify-content-center
           .col-md-2.mb-4.mb-md-0
-            img(src="@/assets/curso/temas/tema2/tbotra1-1.png" alt="")
+            img.p-3(src="@/assets/curso/temas/tema2/tbotra1-1.png" alt="")
           .col-md-7.mb-4.mb-md-0
             p El dinero es entregado, ordenado y guardado de acuerdo con los procedimientos operacionales.
       .py-4.py-md-5(titulo="Higiene y aseo" :icono="require('@/assets/curso/temas/tema2/tbimg1-2.png')")
         .row.align-items-center.justify-content-center
           .col-md-2.mb-4.mb-md-0
-            img(src="@/assets/curso/temas/tema2/tbotra1-2.png" alt="")
+            img.p-3(src="@/assets/curso/temas/tema2/tbotra1-2.png" alt="")
           .col-md-7.mb-4.mb-md-0
             p El puesto de trabajo debe permanecer limpio y ordenado, cumpliendo con las normativas de higiene y aseo del área.
       .py-4.py-md-5(titulo="Apertura de caja" :icono="require('@/assets/curso/temas/tema2/tbimg1-3.png')")
         .row.align-items-center.justify-content-center
           .col-md-2.mb-4.mb-md-0
-            img(src="@/assets/curso/temas/tema2/tbotra1-3.png" alt="")
+            img.p-3(src="@/assets/curso/temas/tema2/tbotra1-3.png" alt="")
           .col-md-7.mb-4.mb-md-0
             p La caja registradora se abre de acuerdo con los controles administrativos y de seguridad establecidos.
       .py-4.py-md-5(titulo="Almacenamiento de comprobantes" :icono="require('@/assets/curso/temas/tema2/tbimg1-3.png')")
         .row.align-items-center.justify-content-center
           .col-md-2.mb-4.mb-md-0
-            img(src="@/assets/curso/temas/tema2/tbotra1-4.png" alt="")
+            img.p-3(src="@/assets/curso/temas/tema2/tbotra1-4.png" alt="")
           .col-md-7.mb-4.mb-md-0
             p Los comprobantes impresos de apertura de caja se almacenan según los controles administrativos y de seguridad establecidos.
       .py-4.py-md-5(titulo="Apertura de caja" :icono="require('@/assets/curso/temas/tema2/tbimg1-5.png')")
         .row.align-items-center.justify-content-center
           .col-md-2.mb-4.mb-md-0
-            img(src="@/assets/curso/temas/tema2/tbotra1-5.png" alt="")
+            img.p-3(src="@/assets/curso/temas/tema2/tbotra1-5.png" alt="")
           .col-md-7.mb-4.mb-md-0
             p La apertura y cierre de la caja se registran conforme a los controles administrativos y de seguridad establecidos.
 
@@ -156,14 +156,15 @@
         img.icon(src='@/assets/curso/temas/icon.svg') 
     
     p.mb-5 Según Angulo y Maldonado (2016), 
-    .row.justify-content-center.align-items-center
-      .col-sm-12.col-md-12.col-lg-10
-        .bloque-texto-f.bgazulclaro.pt-4.px-5.mb-5
-          .bloque-texto-f__comillas
+        
+    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-10
+        .bloque-texto-e.bgazulclaro.p-4
+          .bloque-texto-e__texto
             i.fas.fa-quote-left
+            h4 se entiende por sistema de información transaccional aquel diseñado para recolectar, modificar, almacenar y recuperar información generada por las transacciones en una organización.
             i.fas.fa-quote-right
-          h4.text-regular.bloque-texto-f__texto #[b "Se entiende por sistema de información transaccional aquel diseñado para recolectar, modificar, almacenar y recuperar información generada por las transacciones en una organización"].
-    
+        
     p.mb-4 En el #[em retail], un sistema transaccional se refiere al conjunto organizado de personas, procedimientos, software, bases de datos y dispositivos para registrar transacciones comerciales consumadas.
 
     .row.justify-content-center.align-items-center.mb-5
@@ -178,27 +179,86 @@
       h2 2.3 Elementos en el puesto de trabajo
     p El cargo de cajero se desempeña en un sitio cerrado y/o abierto, normalmente en cubículos. Este puesto de trabajo conlleva ciertos riesgos, como la pérdida de dinero por errores al dar cambio, cobrar incorrectamente un producto o realizar un registro de transacción de forma incorrecta, es por esto, considerando que el cajero maneja valores de la organización, que se requiere de su parte 	de una gran atención y precisión en sus tareas.
     p El cajero pasa la mayor parte de su jornada laboral de pie y no puede abandonar la caja sin previo aviso a su superior y dejando constancia del hecho. Es fundamental que el cajero mantenga un alto nivel de concentración para evitar errores y garantizar un servicio eficiente y seguro. Por ello, también se debe prestar atención a su comodidad y bienestar, proporcionando un entorno de trabajo ergonómico y pausas regulares para prevenir la fatiga.
-    p.mb-5 A continuación, se describen algunos elementos del puesto de trabajo que se deben considerar para lograr un mejor desempeño:
+    p A continuación, se describen algunos elementos del puesto de trabajo que se deben considerar para lograr un mejor desempeño:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-8.col-md-8.col-lg-4
+      .col-10.col-md-8.col-lg-4
         img(src='@/assets/curso/temas/tema2/imagen4.png', alt='')
       .col-sm-12.col-md-12.col-lg-8
-
+        .row.mb-5             
         .tarjeta.tarjeta--naranja.p-4
-          LineaTiempoC.color-acento-contenido(text-small)
-            .row.align-items-center.justify-content-center.p-4(titulo="")
+          SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
+            .row.align-items-center.justify-content-center.p-4
               .col-md-3
                 img(src='@/assets/curso/temas/tema2/slya1-1.png', alt='Texto que describa la imagen')
-              .col-md-7.mb-4.mb-md-0
-                h4 Escritorio
+              .col-md-8.mb-4.mb-md-0
+                h4.mt-3 Escritorio
                 p Escritorio pequeño donde se ubica la caja registradora y se pueden ordenar adecuadamente los utensilios de trabajo.
-            .row.align-items-center.justify-content-center.p-4(titulo="")
+            .row.align-items-center.justify-content-center.p-4
               .col-md-3
                 img(src='@/assets/curso/temas/tema2/slya1-2.png', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
-                h4 Comunicación
-                p Escritorio pequeño donde se ubica la caja registradora y se pueden ordenar adecuadamente los utensilios de trabajo.
+                h4.mt-3 Comunicación
+                p Equipo de comunicación para establecer contacto con los supervisores en caso de que estén ubicados lejos del punto de pago.
+            .row.align-items-center.justify-content-center.p-4
+              .col-md-3
+                img(src='@/assets/curso/temas/tema2/slya1-3.png', alt='Texto que describa la imagen')
+              .col-md-8.mb-4.mb-md-0
+                h4.mt-3 Cajonera
+                p Cajonera ubicada en la caja registradora, aquí se introduce y organiza el dinero, cuenta con divisiones para billetes y monedas de diferentes denominaciones.
+            .row.align-items-center.justify-content-center.p-4
+              .col-md-3
+                img(src='@/assets/curso/temas/tema2/slya1-4.png', alt='Texto que describa la imagen')
+              .col-md-8.mb-4.mb-md-0
+                h4.mt-3 #[em Stock]
+                p #[em Stock] adecuado de los útiles y provisiones necesarios para el desempeño de las funciones del cargo: plumas, grapas, engrapadora, #[em clips], facturas, notas de venta, bolsas de diferentes tamaños, etc. Este #[em stock] debe ser manejado por el propio cajero.
+            .row.align-items-center.justify-content-center.p-4
+              .col-md-3
+                img(src='@/assets/curso/temas/tema2/slya1-5.png', alt='Texto que describa la imagen')
+              .col-md-8.mb-4.mb-md-0
+                h4.mt-3 Silla
+                p Silla cómoda, alta y con ruedas, ergonómica respecto a la posición de la caja registradora.
+            .row.align-items-center.justify-content-center.p-4
+              .col-md-3
+                img(src='@/assets/curso/temas/tema2/slya1-6.png', alt='Texto que describa la imagen')
+              .col-md-8.mb-4.mb-md-0
+                h4.mt-3 Precios
+                p Listado de precios de los artículos en caso de no contar con códigos de barras. Aunque se cuente con ellos, es preciso que los cajeros estén preparados para cualquier contingencia.
+            .row.align-items-center.justify-content-center.p-4
+              .col-md-3
+                img(src='@/assets/curso/temas/tema2/slya1-7.png', alt='Texto que describa la imagen')
+              .col-md-8.mb-4.mb-md-0
+                h4.mt-3 Ventanilla
+                p Si existe una ventanilla, el canal de comunicación no debe obligar al cajero y al cliente a agacharse para poder comunicarse. Deben evitarse los micrófonos. Los demás clientes no deben enterarse de la transacción.
+            .row.align-items-center.justify-content-center.p-4
+              .col-md-3
+                img(src='@/assets/curso/temas/tema2/slya1-8.png', alt='Texto que describa la imagen')
+              .col-md-8.mb-4.mb-md-0
+                h4.mt-3 Efectivo
+                p Suficiente cantidad de efectivo y monedas, tanto en cantidad como en denominaciones.
+            .row.align-items-center.justify-content-center.p-4
+              .col-md-3
+                img(src='@/assets/curso/temas/tema2/slya1-9.png', alt='Texto que describa la imagen')
+              .col-md-8.mb-4.mb-md-0
+                h4.mt-3 Visibilidad
+                p Deben evitarse las ventanillas en las que el cliente no pueda ver al cajero ni observar el manejo de su dinero.
+            .row.align-items-center.justify-content-center.p-4
+              .col-md-3
+                img(src='@/assets/curso/temas/tema2/slya1-10.png', alt='Texto que describa la imagen')
+              .col-md-8.mb-4.mb-md-0
+                h4.mt-3 No se recomienda
+                p En el punto de pago, no se recomienda el manejo de teléfonos convencionales, celulares, faxes y escáneres.
+
+    separador
+    #t_2_4.titulo-segundo.mb-5
+      h2 2.4 Manejo de valores
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-sm-12.col-md-12.col-lg-8
+        p La pandemia de 2020 aceleró el movimiento hacia una economía más digital, y los minoristas necesitan continuar adaptándose para avanzar en estos tiempos de profundos cambios. Una de las principales tendencias en el mundo post-pandémico es la consolidación de los procesos de pago tanto #[em online] como #[em offline]. Durante la pandemia, muchos minoristas se diversificaron e incrementaron su enfoque en los canales en línea.
+        p La aparición de una experiencia de compra #[em offline] más “conectada” implica la necesidad de armonizar las soluciones de pago para mejorar la experiencia del cliente. El manejo de valores en el #[em retail] se refiere al conjunto de operaciones y registros en el punto de pago, así como a la administración de efectivo y otros medios de pago, por esto, es importante que sea un proceso gestionado por personas que mantengan relaciones éticas y profesionales con los clientes compradores, garantizando transparencia, confianza en cada transacción y una experiencia de compra segura, en los diversos canales que se ejecute.
+      .col-10.col-md-8.col-lg-4
+        img(src='@/assets/curso/temas/tema2/imagen5.png', alt='Texto que describa la imagen')
 
 
 
