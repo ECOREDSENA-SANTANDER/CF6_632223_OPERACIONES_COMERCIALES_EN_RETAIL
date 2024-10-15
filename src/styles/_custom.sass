@@ -103,6 +103,14 @@
   border-top-left-radius: 20px
   border-top-right-radius: 20px
 
+.borde-recto-abajo
+  border-bottom-left-radius: 0px
+  border-bottom-right-radius: 0px
+
+.borde-recto-arriba
+  border-top-left-radius: 0px
+  border-top-right-radius: 0px
+
 .bgrosado
   background-color: #FFCEC6
 
@@ -200,13 +208,13 @@
     border-bottom-color: #FF725D !important
     border-top: none
     border-top-color: transparent !important
-    background-color: #FFCEC6
+    background-color: #FFEAE7
     color: #0D66BF
 
 .tabs-b__tab--active 
     border-bottom: 5px solid !important
     border-top: none    
-    background-color: #FFCEC6
+    background-color: #FFEAE7
     color: #0D66BF
 
 .tabs-b__tab
@@ -253,3 +261,41 @@
 
 .tarjeta--naranja
   background-color: #FFEAE7
+
+// slyder tarjetas tema 3
+
+.bggris
+  background-color: #E8E8E8
+
+.slyder-f__btn 
+  color: #FF725D
+
+///////// Card hover ------tema 3
+
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 10px
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  width: 100%
+  bottom: 0
+  transition: all .5s ease-in-out
+  transform: translateY(calc(100% - 3.85rem))
+
+.crd_hover_txt:hover .crd_hover_txt--body
+  transition: all .5s ease-in-out
+  transform: translateY(0)
+  background-color: #0D66BF !important
+.crd_hover_txt:hover .crd_hover_txt--body *
+  color: #fff !important
+
+.cambio
+  background-color: #FF725D
+
+// tarjetas pequeñas tema4
+
+.bgblanco
+  background-color: white
