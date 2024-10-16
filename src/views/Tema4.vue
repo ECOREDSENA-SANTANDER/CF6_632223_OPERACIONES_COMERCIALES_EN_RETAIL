@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-3
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.borde-recto-abajo
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
@@ -52,7 +52,7 @@
         p Cuando se habla de datos personales, se hace referencia a toda la información asociada a una persona que permite su identificación. Las leyes de protección de datos están diseñadas para salvaguardar esta información, asegurando que se maneje de manera segura y respetuosa, protegiendo la privacidad de los individuos.
 
 
-  .container.tarjeta.tarjeta--blanca.bggris.borde-redondo.p-4.p-md-5.mb-3
+  .container.tarjeta.tarjeta--blanca.bggris.p-4.p-md-5.borde-recto-abajo.borde-recto-arriba
 
     .row.justify-content-center.align-items-center
 
@@ -122,7 +122,7 @@
 
     p.mt-4 También existe información más sensible, como el estado de salud, características físicas, ideología política y vida sexual de una persona. En el #[em retail], es común solicitar esta información por razones de estrategia de mercadeo, con el objetivo de desarrollar estrategias basadas en las preferencias de los clientes en cuanto a marcas, productos, olores y empaques, entre otros aspectos. Esta recopilación de datos permite personalizar la experiencia del cliente y mejorar la efectividad de las campañas de #[em marketing].
 
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.borde-recto-arriba
 
     .row.justify-content-center.align-items-center.mb-2
       .col-lg-10

@@ -7,7 +7,7 @@
         span 2
       h1 Recursos del puesto de pago
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-sm-12.col-md-12.col-lg-8
         p Es principal recurso es la terminal POS (punto de venta), es una máquina que se encuentra ubicada en cada puesto de pago. Su función es registrar los productos, brindar información al cliente y recopilar datos de ventas para el almacén.
         p La terminal POS se compone de las siguientes partes:
@@ -40,7 +40,7 @@
       h2 2.1 Administrar dinero y documentos
     p Al preparar la jornada laboral, de acuerdo con las instrucciones del #[em retail] y su política de apertura de caja, se debe cumplir con el siguiente procedimiento:
 
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-acento-contenido.mb-3
       .py-4.py-md-5(titulo="Entrega y orden" :icono="require('@/assets/curso/temas/tema2/tbimg1-1.png')")
         .row.align-items-center.justify-content-center
           .col-md-2.mb-4.mb-md-0
@@ -167,7 +167,7 @@
         
     p.mb-4 En el #[em retail], un sistema transaccional se refiere al conjunto organizado de personas, procedimientos, software, bases de datos y dispositivos para registrar transacciones comerciales consumadas.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-sm-12.col-md-12.col-lg-9
         .cajon.naranja.p-4.mb-4
           p No se trata solo de comprar y vender; el verdadero éxito radica en dejar a los clientes satisfechos. Para lograrlo, es esencial aprender a brindar la mejor experiencia posible. En el contexto actual, la relación entre las tiendas físicas de #[em retail] y sus clientes es principalmente transaccional. Estas tiendas existen para satisfacer la oferta y la demanda, abrir nuevos canales, implementar segmentaciones a medida e integrar procesos tecnológicos avanzados. 
