@@ -38,16 +38,17 @@
         figure
           .video
             iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/5CF3HZdu6Bc?si=oUUrjHf1ZHBPRbNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Sistema de Gestión de la Seguridad y Salud en el Trabajo.
 
     separador
-    #t_4_1.titulo-segundo.mb-5
+    #t_4_2.titulo-segundo.mb-5
       h2 4.2 Leyes de protección de datos
 
     .row.justify-content-center.align-items-center.mb-2
       .col-6.col-md-2.col-lg-2
         .row.justify-content-center.align-items-center
           .col-12.col-md-11.col-lg-8
-            img.mt-2(src="@/assets/curso/temas/tema4/imagen1.png" alt="")
+            img.mt-2.mb-2(src="@/assets/curso/temas/tema4/imagen1.png" alt="")
       .col-sm-12.col-md-12.col-lg-10
         p Cuando se habla de datos personales, se hace referencia a toda la información asociada a una persona que permite su identificación. Las leyes de protección de datos están diseñadas para salvaguardar esta información, asegurando que se maneje de manera segura y respetuosa, protegiendo la privacidad de los individuos.
 
@@ -61,28 +62,28 @@
         
         .row.align-items-center.justify-content-center
 
-          .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+          .col-xl-4.col-lg-7.col-md-7.col-11.mb-4.mb-xl-0
             .crd_hover_txt(data-aos="flip-left").borde-redondo.bgblanco
               .row.align-items-center.justify-content-center
-                .col-5.col-md-3.col-lg-5
+                .col-4.col-md-3.col-lg-5
                   img.mt-3(src="@/assets/curso/temas/tema4/icon1-1.png", alt="alt")
               .row.align-items-center.justify-content-center
                 .col-10
                   p.mt-2.mb-3.text-center #[b Documento de identidad]
 
-          .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+          .col-xl-4.col-lg-7.col-md-7.col-11.mb-4.mb-xl-0
             .crd_hover_txt(data-aos="flip-left").borde-redondo.bgblanco
               .row.align-items-center.justify-content-center
-                .col-5.col-md-3.col-lg-5
+                .col-4.col-md-3.col-lg-5
                   img.mt-3(src="@/assets/curso/temas/tema4/icon1-2.png", alt="alt")
               .row.align-items-center.justify-content-center
                 .col-10
                   p.mt-3.mb-3.text-center #[b Lugar de nacimiento]
 
-          .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+          .col-xl-4.col-lg-7.col-md-7.col-11.mb-4.mb-xl-0
             .crd_hover_txt(data-aos="flip-left").borde-redondo.bgblanco
               .row.align-items-center.justify-content-center
-                .col-5.col-md-3.col-lg-5
+                .col-4.col-md-3.col-lg-5
                   img.mt-2(src="@/assets/curso/temas/tema4/icon1-3.png", alt="alt")
               .row.align-items-center.justify-content-center
                 .col-10
@@ -90,28 +91,28 @@
 
         .row.align-items-center.justify-content-center.mt-3
 
-          .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+          .col-xl-4.col-lg-7.col-md-7.col-11.mb-4.mb-xl-0
             .crd_hover_txt(data-aos="flip-left").borde-redondo.bgblanco
               .row.align-items-center.justify-content-center
-                .col-5.col-md-3.col-lg-5
+                .col-4.col-md-3.col-lg-5
                   img.mt-3(src="@/assets/curso/temas/tema4/icon1-4.png", alt="alt")
               .row.align-items-center.justify-content-center
                 .col-10
                   p.mt-3.mb-4.text-center #[b Edad]
 
-          .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+          .col-xl-4.col-lg-7.col-md-7.col-11.mb-4.mb-xl-0
             .crd_hover_txt(data-aos="flip-left").borde-redondo.bgblanco
               .row.align-items-center.justify-content-center
-                .col-5.col-md-3.col-lg-5
+                .col-4.col-md-3.col-lg-5
                   img.mt-3(src="@/assets/curso/temas/tema4/icon1-5.png", alt="alt")
               .row.align-items-center.justify-content-center
                 .col-10
                   p.mt-3.mb-4.text-center #[b Lugar de residencia]
 
-          .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+          .col-xl-4.col-lg-7.col-md-7.col-11.mb-4.mb-xl-0
             .crd_hover_txt(data-aos="flip-left").borde-redondo.bgblanco
               .row.align-items-center.justify-content-center
-                .col-5.col-md-3.col-lg-5
+                .col-4.col-md-3.col-lg-5
                   img.mt-3(src="@/assets/curso/temas/tema4/icon1-6.png", alt="alt")
               .row.align-items-center.justify-content-center
                 .col-12

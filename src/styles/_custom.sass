@@ -138,7 +138,7 @@
 // cajon primario azul
 
 .cajon.color-primario 
-  background-color: #D2E1F1
+  background-color: #D4EEFB 
 
 // Pasos tema 1
 
@@ -186,6 +186,9 @@
   
 .texto-azul
   color: #0D66BF
+
+.texto-azulclaro
+  color: #53BCED  
 
 .texto-negro
   color: black
@@ -299,3 +302,39 @@
 
 .bgblanco
   background-color: white
+
+// ajuste maquetación tarjeta con imagen pegada
+
+.corrermargen
+  margin-left: -23px
+
+// ajuste flechas mobile
+
+.slyder-a__bullets__item--active 
+
+@media (max-width: 768px) 
+    .slyder-a__bullets__item 
+        width: 11px
+        height: 11px
+        margin: 0px 0.5px
+
+@media (max-width: 768px)  
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 30px
+    height: 30px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    width: 50px
+    height: 50px
+    background-color: #FFD947
+    border-radius: 50%
+    background-repeat: no-repeat
+    background-size: 16px 24px
+    background-position: center
+    border: 1px solid #D8ECFF
+    z-index: 10000
+    opacity: 0.7
+    box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
+    transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+    cursor: pointer
+

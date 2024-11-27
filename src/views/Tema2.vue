@@ -43,31 +43,31 @@
     TabsB.color-acento-contenido.mb-3
       .py-4.py-md-5(titulo="Entrega y orden" :icono="require('@/assets/curso/temas/tema2/tbimg1-1.png')")
         .row.align-items-center.justify-content-center
-          .col-md-2.mb-4.mb-md-0
+          .col-md-2.col-6.mb-4.mb-md-0
             img.p-3(src="@/assets/curso/temas/tema2/tbotra1-1.png" alt="")
           .col-md-7.mb-4.mb-md-0
             p El dinero es entregado, ordenado y guardado de acuerdo con los procedimientos operacionales.
       .py-4.py-md-5(titulo="Higiene y aseo" :icono="require('@/assets/curso/temas/tema2/tbimg1-2.png')")
         .row.align-items-center.justify-content-center
-          .col-md-2.mb-4.mb-md-0
+          .col-md-2.col-6.mb-4.mb-md-0
             img.p-3(src="@/assets/curso/temas/tema2/tbotra1-2.png" alt="")
           .col-md-7.mb-4.mb-md-0
             p El puesto de trabajo debe permanecer limpio y ordenado, cumpliendo con las normativas de higiene y aseo del área.
       .py-4.py-md-5(titulo="Apertura de caja" :icono="require('@/assets/curso/temas/tema2/tbimg1-3.png')")
         .row.align-items-center.justify-content-center
-          .col-md-2.mb-4.mb-md-0
+          .col-md-2.col-6.mb-4.mb-md-0
             img.p-3(src="@/assets/curso/temas/tema2/tbotra1-3.png" alt="")
           .col-md-7.mb-4.mb-md-0
             p La caja registradora se abre de acuerdo con los controles administrativos y de seguridad establecidos.
       .py-4.py-md-5(titulo="Almacenamiento de comprobantes" :icono="require('@/assets/curso/temas/tema2/tbimg1-3.png')")
         .row.align-items-center.justify-content-center
-          .col-md-2.mb-4.mb-md-0
+          .col-md-2.col-6.mb-4.mb-md-0
             img.p-3(src="@/assets/curso/temas/tema2/tbotra1-4.png" alt="")
           .col-md-7.mb-4.mb-md-0
             p Los comprobantes impresos de apertura de caja se almacenan según los controles administrativos y de seguridad establecidos.
       .py-4.py-md-5(titulo="Apertura de caja" :icono="require('@/assets/curso/temas/tema2/tbimg1-5.png')")
         .row.align-items-center.justify-content-center
-          .col-md-2.mb-4.mb-md-0
+          .col-md-2.col-6.mb-4.mb-md-0
             img.p-3(src="@/assets/curso/temas/tema2/tbotra1-5.png" alt="")
           .col-md-7.mb-4.mb-md-0
             p La apertura y cierre de la caja se registran conforme a los controles administrativos y de seguridad establecidos.
@@ -84,42 +84,42 @@
         .tarjetaf.p-3.mb-4
           SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
             .row.justify-content-center.align-items-center.p-4
-              .col-lg-6
+              .col-lg-6.col-md-12.col-sm-12
                 h4.mb-4 El #[em scanner] balanza
                 p.mb-4 Este equipo combina un lector de códigos de barras y una balanza para pesar frutas y verduras, conectándose a la terminal POS. Su función es proporcionar información de ventas con agilidad y exactitud.
                 p #[b El uso del #[em scanner] balanza permite:]
-                ul.lista-ul.mb-0.ps-3
+                ul.lista-ul.mb-0.ps-3.texto-azulclaro
                   li.d-flex.mb-0
-                    i.fas.fa-check-circle.texto-azul
+                    i.fas.fa-check-circle
                     p.mb-0 Brindar al cliente mayor seguridad, rapidez y exactitud en el registro.
                   li.d-flex.mb-0
-                    i.fas.fa-check-circle.texto-azul
+                    i.fas.fa-check-circle
                     p.mb-0 Aumentar la productividad en el puesto de pago.
                   li.d-flex.mb-0
-                    i.fas.fa-check-circle.texto-azul
+                    i.fas.fa-check-circle
                     p.mb-0 Mejorar la confiabilidad en la información de ventas.
-              .col-lg-5
-                img(alt="" src="@/assets/curso/temas/tema2/sly1-1.png")
+              .col-lg-5.col-md-6.col-12
+                img.mt-2(alt="" src="@/assets/curso/temas/tema2/sly1-1.png")
             .row.justify-content-center.align-items-center.p-4
-              .col-lg-6
+              .col-lg-6.col-md-12.col-sm-12
                 h4.mb-4 El datáfono
                 p.mb-4 El datáfono es el equipo que permite procesar los pagos cuando los clientes utilizan tarjetas de débito o crédito. Su función principal es comunicarse con los bancos y las entidades financieras para autorizar y completar las transacciones. Algunos datáfonos incluyen un teclado o PIN PAD separado para que los clientes ingresen su clave personal de manera segura.
-              .col-lg-5
-                img(alt="" src="@/assets/curso/temas/tema2/sly1-2.png")
+              .col-lg-5.col-md-6.col-12
+                img.mt-2(alt="" src="@/assets/curso/temas/tema2/sly1-2.png")
             .row.justify-content-center.align-items-center.p-4
-              .col-lg-6
+              .col-lg-6.col-md-12.col-sm-12
                 h4.mb-4 El desactivador de #[em tags]
                 p El desactivador de #[em tags] es el equipo utilizado para desactivar los dispositivos de seguridad colocados en los productos del almacén, evitando que salgan sin ser registrados. Estos tags se encuentran principalmente en textiles, variedades y licores.
                 p Los puestos de pago también incorporan desactivadores para los #[em tags] que se encuentran internamente en el empaque de algunos cosméticos y medicamentos. Estos dispositivos son colocados por el fabricante y no son reutilizables.
                 p Es importante retirar el #[em tag] del producto para evitar que las alarmas se activen en las salidas del almacén, incomodando al cliente.
-              .col-lg-5
-                img(alt="" src="@/assets/curso/temas/tema2/sly1-3.png")
+              .col-lg-5.col-md-6.col-12
+                img.mt-2(alt="" src="@/assets/curso/temas/tema2/sly1-3.png")
             .row.justify-content-center.align-items-center.p-4
-              .col-lg-6
+              .col-lg-6.col-md-12.col-sm-12
                 h4.mb-4 Sistema Neumático #[em (shut)]
                 p.mb-4 El sistema neumático, conocido como #[em shut], consiste en una serie de conductos que conectan el puesto de pago con la caja general o tesorería. Su función es transportar una cápsula que contiene el dinero de las ventas realizadas. En los #[em retailers] que no disponen de este sistema, el dinero se envía con un directivo encargado de la recogida.
-              .col-lg-5
-                img(alt="" src="@/assets/curso/temas/tema2/sly1-4.png")
+              .col-lg-5.col-md-6.col-12
+                img.mt-2(alt="" src="@/assets/curso/temas/tema2/sly1-4.png")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-sm-12.col-md-12.col-lg-9
@@ -168,10 +168,10 @@
     p.mb-4 En el #[em retail], un sistema transaccional se refiere al conjunto organizado de personas, procedimientos, software, bases de datos y dispositivos para registrar transacciones comerciales consumadas.
 
     .row.justify-content-center.align-items-center
-      .col-sm-12.col-md-12.col-lg-9
+      .col-sm-12.col-md-12.col-lg-9.mt-4
         .cajon.naranja.p-4.mb-4
-          p No se trata solo de comprar y vender; el verdadero éxito radica en dejar a los clientes satisfechos. Para lograrlo, es esencial aprender a brindar la mejor experiencia posible. En el contexto actual, la relación entre las tiendas físicas de #[em retail] y sus clientes es principalmente transaccional. Estas tiendas existen para satisfacer la oferta y la demanda, abrir nuevos canales, implementar segmentaciones a medida e integrar procesos tecnológicos avanzados. 
-      .col-6-col-md-6.col-lg-3
+          p.ps-4 No se trata solo de comprar y vender; el verdadero éxito radica en dejar a los clientes satisfechos. Para lograrlo, es esencial aprender a brindar la mejor experiencia posible. En el contexto actual, la relación entre las tiendas físicas de #[em retail] y sus clientes es principalmente transaccional. Estas tiendas existen para satisfacer la oferta y la demanda, abrir nuevos canales, implementar segmentaciones a medida e integrar procesos tecnológicos avanzados. 
+      .col-6.col-md-6.col-lg-3.corrermargen
         img(src='@/assets/curso/temas/tema2/imagen3.png', alt='')
 
     separador
@@ -189,61 +189,61 @@
         .tarjeta.tarjeta--naranja.p-4
           SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
             .row.align-items-center.justify-content-center.p-4
-              .col-md-3
+              .col-md-3.col-6
                 img(src='@/assets/curso/temas/tema2/slya1-1.png', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
                 h4.mt-3 Escritorio
                 p Escritorio pequeño donde se ubica la caja registradora y se pueden ordenar adecuadamente los utensilios de trabajo.
             .row.align-items-center.justify-content-center.p-4
-              .col-md-3
+              .col-md-3.col-6
                 img(src='@/assets/curso/temas/tema2/slya1-2.png', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
                 h4.mt-3 Comunicación
                 p Equipo de comunicación para establecer contacto con los supervisores en caso de que estén ubicados lejos del punto de pago.
             .row.align-items-center.justify-content-center.p-4
-              .col-md-3
+              .col-md-3.col-6
                 img(src='@/assets/curso/temas/tema2/slya1-3.png', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
                 h4.mt-3 Cajonera
                 p Cajonera ubicada en la caja registradora, aquí se introduce y organiza el dinero, cuenta con divisiones para billetes y monedas de diferentes denominaciones.
             .row.align-items-center.justify-content-center.p-4
-              .col-md-3
+              .col-md-3.col-6
                 img(src='@/assets/curso/temas/tema2/slya1-4.png', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
                 h4.mt-3 #[em Stock]
                 p #[em Stock] adecuado de los útiles y provisiones necesarios para el desempeño de las funciones del cargo: plumas, grapas, engrapadora, #[em clips], facturas, notas de venta, bolsas de diferentes tamaños, etc. Este #[em stock] debe ser manejado por el propio cajero.
             .row.align-items-center.justify-content-center.p-4
-              .col-md-3
+              .col-md-3.col-6
                 img(src='@/assets/curso/temas/tema2/slya1-5.png', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
                 h4.mt-3 Silla
                 p Silla cómoda, alta y con ruedas, ergonómica respecto a la posición de la caja registradora.
             .row.align-items-center.justify-content-center.p-4
-              .col-md-3
+              .col-md-3.col-6
                 img(src='@/assets/curso/temas/tema2/slya1-6.png', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
                 h4.mt-3 Precios
                 p Listado de precios de los artículos en caso de no contar con códigos de barras. Aunque se cuente con ellos, es preciso que los cajeros estén preparados para cualquier contingencia.
             .row.align-items-center.justify-content-center.p-4
-              .col-md-3
+              .col-md-3.col-6
                 img(src='@/assets/curso/temas/tema2/slya1-7.png', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
                 h4.mt-3 Ventanilla
                 p Si existe una ventanilla, el canal de comunicación no debe obligar al cajero y al cliente a agacharse para poder comunicarse. Deben evitarse los micrófonos. Los demás clientes no deben enterarse de la transacción.
             .row.align-items-center.justify-content-center.p-4
-              .col-md-3
+              .col-md-3.col-6
                 img(src='@/assets/curso/temas/tema2/slya1-8.png', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
                 h4.mt-3 Efectivo
                 p Suficiente cantidad de efectivo y monedas, tanto en cantidad como en denominaciones.
             .row.align-items-center.justify-content-center.p-4
-              .col-md-3
+              .col-md-3.col-6
                 img(src='@/assets/curso/temas/tema2/slya1-9.png', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
                 h4.mt-3 Visibilidad
                 p Deben evitarse las ventanillas en las que el cliente no pueda ver al cajero ni observar el manejo de su dinero.
             .row.align-items-center.justify-content-center.p-4
-              .col-md-3
+              .col-md-3.col-6
                 img(src='@/assets/curso/temas/tema2/slya1-10.png', alt='Texto que describa la imagen')
               .col-md-8.mb-4.mb-md-0
                 h4.mt-3 No se recomienda

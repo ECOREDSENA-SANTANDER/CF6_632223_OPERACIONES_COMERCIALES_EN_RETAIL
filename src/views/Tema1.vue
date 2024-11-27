@@ -25,7 +25,7 @@
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="n")
           .row.align-items-center
-            .col-lg
+            .col-lg.col-md.col-sm
               p Recibir y entregar cheques, dinero en efectivo, depósitos bancarios y otros documentos de valor. No tener en cuenta salidas de dinero para compras u otros gastos del negocio.
             .col-auto
               figure(data-aos="zoom-in")
@@ -34,7 +34,7 @@
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema1/lt1-2.png', alt='').img125
-            .col-lg
+            .col-lg.col-md.col-sm
               p Hacer un proceso directo de registro operando una computadora o caja, ingresando los movimientos de entrada y salida de dinero. No se registran algunos descuentos concedidos a los clientes.
           .row.align-items-center
             .col-lg
@@ -46,10 +46,10 @@
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema1/lt1-4.png', alt='').img125
-            .col-lg
+            .col-lg.col-md.col-sm
               p Suministrar a su superior los informes relacionados a los movimientos diarios de caja.
           .row.align-items-center
-            .col-lg
+            .col-lg.col-md.col-sm
               p Sellar, estampar recibos de ingresos por caja, planillas y otros documentos.
             .col-auto
               figure(data-aos="zoom-in")
@@ -58,10 +58,10 @@
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema1/lt1-6.png', alt='').img125
-            .col-lg
+            .col-lg.col-md.col-sm
               p Cumplir con las normas y procedimientos en materia de seguridad integral, establecidos por la empresa.
           .row.align-items-center
-            .col-lg
+            .col-lg.col-md.col-sm
               p Mantener en orden equipo y sitio de trabajo, reportando cualquier anomalía.
             .col-auto
               figure(data-aos="zoom-in")
@@ -70,7 +70,7 @@
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema1/lt1-8.png', alt='').img125
-            .col-lg
+            .col-lg.col-md.col-sm
               p Realizar otras tareas a fines a su puesto de trabajo que le sean asignadas
     
     p Además de las funciones expuestas previamente, se destaca una función fundamental, que es la organización del puesto de trabajo, cuyo proceso se detalla a continuación:
@@ -79,11 +79,13 @@
       .col-8.col-md-7.col-lg-4
         img(src='@/assets/curso/temas/tema1/imagen2.png', alt='')
       .col-sm-12.col-md-12.col-lg-8
-        p.mb-5.mt-5
-        .mb-4.d-flex.ps-lg-0
-          .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
-            img.icon2(src='@/assets/curso/temas/icon.svg') 
-            h3.col.px-4.mb-0.mx-2.text-white(data-aos="zoom-in-left") Organizar puesto de pago
+        .row
+          .col-lg-6
+            p.mb-5.mt-5
+            .mb-4
+              .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
+                img.icon2(src='@/assets/curso/temas/icon.svg') 
+                h3.col.px-4.mb-0.mx-2.text-white(data-aos="zoom-in-left") Organizar puesto de pago
         .row
           .col-sm-12.col-md-12.col-lg-10
             p El propósito del puesto de pago es generar en el cliente comprador bienestar, seguridad y ligereza al momento de registrar sus productos; por otra parte, a nivel físico, está conformado por el mueble donde se ubica el cajero para registrar los productos y atender a los clientes. El diseño del puesto de pago y la distribución de los equipos facilitan la realización de las labores como cajero. Es importante mantenerlo en óptimas condiciones de limpieza y descongestionado de mercancía.          
@@ -191,16 +193,22 @@
       .col-8.col-md-5.col-lg-3
         img(src='@/assets/curso/temas/tema1/imagen4.png', alt='')
       .col-sm-12.col-md-12.col-lg-9.mb-4.mt-4       
-        .mb-4.d-flex.ps-lg-0
-          .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
-            img.icon3(src='@/assets/curso/temas/icon.svg') 
-            h3.col.px-4.mb-0.mx-2.text-white(data-aos="zoom-in-left") Ética del Cajero
+        .row
+          .col-lg-6
+            p.mb-5.mt-5
+            .mb-4
+              .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
+                img.icon3(src='@/assets/curso/temas/icon.svg') 
+                h3.col.px-4.mb-0.mx-2.text-white(data-aos="zoom-in-left") Ética del Cajero
         p La ética empresarial ayuda a promover el fortalecimiento de los valores de una sociedad, y muchas empresas establecen un código de ética para asegurar que los empleados traten a los clientes con respeto y dignidad. Los cajeros en el #[em retail] están obligados a seguir estas normas éticas, asegurando que no abusen de su posición ni utilicen sus conocimientos para beneficio personal. 
         p El cajero debe ser una persona íntegra, honrada y responsable, comprometida con el buen manejo de equipos y materiales. Es responsable directo del manejo de dinero en efectivo, cheques y otros documentos de valor, manteniendo siempre un alto nivel de confidencialidad y profesionalismo frente a la organización.
-        .mb-4.d-flex.ps-lg-0
-          .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
-            img.icon3(src='@/assets/curso/temas/icon.svg') 
-            h3.col.px-4.mb-0.mx-2.text-white(data-aos="zoom-in-left") Protocolo Institucional
+        .row
+          .col-lg-6
+            p.mb-5.mt-5
+            .mb-4
+              .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
+                img.icon3(src='@/assets/curso/temas/icon.svg') 
+                h3.col.px-4.mb-0.mx-2.text-white(data-aos="zoom-in-left") Protocolo Institucional
         p En el #[em retail], el protocolo se refiere a un conjunto de normas, hábitos y costumbres institucionales que permiten a los empleados desenvolverse adecuadamente en las diferentes áreas de la organización. Cada empresa tiene su propio protocolo basado en sus políticas y objetivos, asegurando un entorno de trabajo ordenado y eficiente, donde todos los empleados conocen y cumplen con los estándares establecidos.
 
     

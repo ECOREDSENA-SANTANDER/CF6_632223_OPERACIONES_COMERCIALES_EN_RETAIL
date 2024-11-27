@@ -17,32 +17,32 @@
     SlyderF(columnas="col-lg-6 col-xl-4")
       .tarjeta.bggris.p-4
         .row.justify-content-center.mb-3
-          .col-5
+          .col-lg-5.col-md-3.col-5
             img.mt-2(src='@/assets/curso/temas/tema3/slyf1-1.png' alt='AvatarTop')
         p.text-center.mt-4 #[b Pago en efectivo:] pagos realizados con dinero físico, con cheque bancario al portador o con algún otro medio físico similar.
       .tarjeta.bggris.p-4
         .row.justify-content-center.mb-3
-          .col-5
+          .col-lg-5.col-md-3.col-5
             img.mt-2(src='@/assets/curso/temas/tema3/slyf1-2.png' alt='AvatarTop')
         p.text-center.mt-4 Pago con tarjeta de crédito o débito.
       .tarjeta.bggris.p-4
         .row.justify-content-center.mb-3
-          .col-5
+          .col-lg-5.col-md-3.col-5
             img.mt-2(src='@/assets/curso/temas/tema3/slyf1-3.png' alt='AvatarTop')
         p.text-center.mt-4 Pago por PayPal.
       .tarjeta.bggris.p-4
         .row.justify-content-center.mb-3
-          .col-5
+          .col-lg-5.col-md-3.col-5
             img.mt-2(src='@/assets/curso/temas/tema3/slyf1-4.png' alt='AvatarTop')
         p.text-center.mt-4 Pago a través del dispositivo móvil.
       .tarjeta.bggris.p-4
         .row.justify-content-center.mb-3
-          .col-5
+          .col-lg-5.col-md-3.col-5
             img.mt-2(src='@/assets/curso/temas/tema3/slyf1-5.png' alt='AvatarTop')
         p.text-center.mt-4 Bonos.
       .tarjeta.bggris.p-4
         .row.justify-content-center.mb-3
-          .col-5
+          .col-lg-5.col-md-3.col-5
             img.mt-2(src='@/assets/curso/temas/tema3/slyf1-6.png' alt='AvatarTop')
         p.text-center.mt-4 Pagos en línea.
 
@@ -50,10 +50,13 @@
       .col-9.col-md-7.col-lg-3
         img(src='@/assets/curso/temas/tema3/imagen1.png', alt='')
       .col-sm-12.col-md-12.col-lg-9.mt-4
-        .mb-4.d-flex.ps-lg-0
-          .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
-            img.icon3(src='@/assets/curso/temas/icon.svg') 
-            h3.col.px-4.mb-0.mx-2.text-white(data-aos="zoom-in-left") Tarjetas débito y crédito
+        .row
+          .col-lg-6
+            p.mb-5.mt-5
+            .mb-4
+              .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
+                img.icon3(src='@/assets/curso/temas/icon.svg') 
+                h3.col.px-4.mb-0.mx-2.text-white(data-aos="zoom-in-left") Tarjetas débito y crédito
         p Las tarjetas de crédito permiten financiar compras, pagar a plazos y realizar adquisiciones sin necesidad de desembolsar el total del pago de inmediato, siempre que no se exceda el límite concedido por el banco. Estas tarjetas ofrecen flexibilidad y conveniencia para gestionar pagos y gastos.
         p Por otro lado, las tarjetas de débito deducen el importe directamente de la cuenta del titular, descontando el saldo disponible de manera inmediata. Esto asegura que las compras se realicen dentro de los límites de los fondos disponibles, evitando el endeudamiento.
   
@@ -109,7 +112,7 @@
           figure
             .video
               iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/Vmg0zJX69Qc?si=2J_B3XS6r70hk09z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-
+            figcaption Video: Razones para utilizar el pago en línea.
 
 </template>
 

@@ -5,7 +5,7 @@
     p.mb-5 A continuación, se presenta a manera de síntesis, un esquema que articula las principales temáticas abordadas en el desarrollo del componente formativo Recursos del cajero, incluyendo las generalidades, funciones y protocolos relacionados con el cargo, así como los recursos involucrados en el puesto de pago, los medios de pago y la normativa asociada al recaudo de caja.
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-12.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="El esquema presenta de manera general las temáticas que aborda el componente formativo Recursos del cajero, incluyendo conocimientos asociados a los medios de pago y normativa del recaudo de caja.")
       .col-auto
