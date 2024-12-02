@@ -154,15 +154,14 @@
       .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
         h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Sistema transaccional
         img.icon(src='@/assets/curso/temas/icon.svg') 
-    
-    p.mb-5 Según Angulo y Maldonado (2016), 
-        
+           
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10
         .bloque-texto-e.bgazulclaro.p-4
           .bloque-texto-e__texto
             i.fas.fa-quote-left
-            h4 se entiende por sistema de información transaccional aquel diseñado para recolectar, modificar, almacenar y recuperar información generada por las transacciones en una organización.
+            p Según Angulo y Maldonado (2016),
+            h4  se entiende por sistema de información transaccional aquel diseñado para recolectar, modificar, almacenar y recuperar información generada por las transacciones en una organización.
             i.fas.fa-quote-right
         
     p.mb-4 En el #[em retail], un sistema transaccional se refiere al conjunto organizado de personas, procedimientos, software, bases de datos y dispositivos para registrar transacciones comerciales consumadas.
