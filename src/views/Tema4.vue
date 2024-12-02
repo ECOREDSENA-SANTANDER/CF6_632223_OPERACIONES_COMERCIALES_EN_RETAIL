@@ -37,7 +37,7 @@
       .col-sm-12.col-md-12.col-lg-10
         figure
           .video
-            iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/5CF3HZdu6Bc?si=oUUrjHf1ZHBPRbNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/RRSIdOpBJs4?si=x4TZRdBlI2KsWLoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Sistema de Gestión de la Seguridad y Salud en el Trabajo.
 
     separador
