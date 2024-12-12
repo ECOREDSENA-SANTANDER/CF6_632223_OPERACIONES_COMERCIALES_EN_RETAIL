@@ -123,7 +123,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CF6_632223_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -323,17 +323,12 @@ export default {
         },
         {
           nombre: 'Lucenith Pinilla Moreno',
-          cargo: 'Desarrollador <i>full-stack</i> Junior',
+          cargo: 'Desarrolladora <i>full-stack</i> Junior',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'María Alejandra Vera Briceño',
-          cargo: 'Animador y producción audiovisual',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: 'Lucenith Pinilla Moreno',
-          cargo: 'Actividad didáctica',
+          cargo: 'Animadora y producción audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -342,13 +337,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'falta nombre',
-          cargo: 'Validador de recursos educativos digitales',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'falta nombre',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

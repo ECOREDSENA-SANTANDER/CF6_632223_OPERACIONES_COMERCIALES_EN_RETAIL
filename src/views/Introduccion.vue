@@ -8,7 +8,7 @@
         span
           i.fas.fa-info
       h1 Introducción
-    p El cajero desempeña un rol fundamental en el proceso de compra, siendo el primer y último punto de contacto del cliente en el retail. El cajero no solo maneja transacciones, sino que también asegura una experiencia de compra fluida y agradable. Esta posición es una de las más representativas en el retail, ya que la atención y el servicio brindados pueden influir directamente en la satisfacción y lealtad del cliente. Este componente formativo permitirá conocer entre otras cosas, los recursos y herramientas disponibles para desempeñar las funciones del cajero de manera eficiente. Consulte el video que se presenta a continuación. ¡Éxitos en este proceso de aprendizaje!   
+    p El cajero desempeña un rol fundamental en el proceso de compra, siendo el primer y último punto de contacto del cliente en el #[em retail]. El cajero no solo maneja transacciones, sino que también asegura una experiencia de compra fluida y agradable. Esta posición es una de las más representativas en el #[em retail], ya que la atención y el servicio brindados pueden influir directamente en la satisfacción y lealtad del cliente. Este componente formativo permitirá conocer entre otras cosas, los recursos y herramientas disponibles para desempeñar las funciones del cajero de manera eficiente. Consulte el video que se presenta a continuación. ¡Éxitos en este proceso de aprendizaje!   
     
     figure
       .video
